@@ -27,7 +27,7 @@ h1 span {
 }
 
 #header p {
-    width: 515px;
+    width: 34.33rem;
     text-align: center;
     margin: auto;
 }
@@ -38,4 +38,10 @@ h2 {
 
 #content p {
     font-size: 0.85rem;
+}
+
+.feature {
+    border: 1px solid red;
+    height: 16.33rem;
+    width: 23rem;
 }
