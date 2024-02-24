@@ -5,7 +5,8 @@ html {
 }
 
 * {
-    border: 1px dotted grey;
+    /* border: 1px dotted grey; */
+    box-sizing: border-box;
 }
 
 body {
@@ -23,6 +24,12 @@ h1 span:first-of-type {
 h1 span {
     display: block;
     text-align: center;
+}
+
+#header p {
+    width: 515px;
+    text-align: center;
+    margin: auto;
 }
 
 h2 {
