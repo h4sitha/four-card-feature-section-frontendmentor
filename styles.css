@@ -45,3 +45,17 @@ h2 {
     height: 16.33rem;
     width: 23rem;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.single {
+    align-self: center;
+}
+
+.double .feature:first-of-type {
+    margin-bottom: 2rem;
+}
