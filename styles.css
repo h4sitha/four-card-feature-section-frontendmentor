@@ -57,11 +57,26 @@ h2 {
 .feature::before {
     content: '';
     position: absolute;
-    height: 0.195rem;
+    height: 0.3rem;
     width: 100%;
-    background-color: red;
     top: 0;
     left: 0;
+}
+
+.cyan::before {
+    background-color: hsl(180, 62%, 55%);
+}
+
+.red::before {
+    background-color: hsl(0, 78%, 62%);
+}
+
+.orange::before {
+    background-color: hsl(34, 97%, 64%);
+}
+
+.blue::before {
+    background-color: hsl(212, 86%, 64%);
 }
 
 #content {
