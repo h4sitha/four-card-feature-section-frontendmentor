@@ -54,12 +54,13 @@ h2 {
 }
 
 .feature {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 23rem;
     padding: 2rem;
     border-radius: 0.5rem;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem 0.5rem hsla(229, 6%, 66%, 0.2);
 }
 
 .feature::before {
