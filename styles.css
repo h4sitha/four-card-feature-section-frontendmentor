@@ -112,3 +112,8 @@ h2 {
     display: block;
     margin-left: auto;
 }
+
+.column:first-of-type,
+.column:last-of-type {
+    display: flex;
+}
